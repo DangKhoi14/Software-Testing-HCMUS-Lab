@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" 
+    colors="true" 
+    stopOnFailure="false">
+
+  <testsuites>
+    <testsuite name="Calculator">
+        <file>tests\CalculatorTest1.php</file>
+        <file>tests\CalculatorTest2.php</file>
+        <file>tests\CalculatorTest3.php</file>
+        <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>    
