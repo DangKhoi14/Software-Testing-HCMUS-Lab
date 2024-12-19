@@ -4,18 +4,19 @@
     stopOnFailure="false">
 
   <testsuites>
-    <!-- <testsuite name="Calculator">
+    <testsuite name="Calculator">
         <file>tests\CalculatorTests\CalculatorTest1.php</file>
         <file>tests\CalculatorTests\CalculatorTest2.php</file>
         <file>tests\CalculatorTests\CalculatorTest3.php</file>
         <directory>tests</directory>
-    </testsuite> -->
+    </testsuite>
 
     <testsuite name="AdvancedMath">
-        <!-- <file>tests\AdvancedMathTest\factorialTest.php</file> -->
-        <!-- <file>tests\AdvancedMathTest\powerTest.php</file> -->
-        <!-- <file>tests\AdvancedMathTest\squareRootTest.php</file> -->
-        <!-- <file>tests\AdvancedMathTest\sumOfEvensTest.php</file> -->
+        <file>tests\AdvancedMathTest\factorialTest.php</file>
+        <file>tests\AdvancedMathTest\powerTest.php</file>
+        <file>tests\AdvancedMathTest\squareRootTest.php</file>
+        <file>tests\AdvancedMathTest\sumOfEvensTest.php</file>
+        <file>tests\AdvancedMathTest\isPrimeTest.php</file>
         <directory>tests</directory>
     </testsuite>
   </testsuites>
